@@ -30,15 +30,15 @@ function FavoriteList() {
   }, []);
 
   return (
-    <div>
-      <h2 className='w-full text-white bg-black p-10 text-4xl'>My LocalStorage Items</h2>
+    <div className='bg-black text-white'>
+      <h2 className='w-full text-white bg-black p-10 text-4xl'>My Favorite Items</h2>
 
       {storedItems.length === 0 ? (
         <p className='p-4'>No items in localStorage.</p>
       ) : (
         <ul className="p-4 space-y-4">
           {storedItems.map((item, index) => (
-            <li key={index} className=" pb-2">
+            <li key={index} className=" pb-2 ">
               
            
                <MovieList search={item.value}/>
