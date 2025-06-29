@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 
-import MovieList from '../components/MovieList';
+
+import FavoriteCard from '../components/favoriteCard';
 
 function FavoriteList() {
   const [storedItems, setStoredItems] = useState([]);
@@ -42,7 +43,7 @@ function FavoriteList() {
             <li key={index} className=" pb-2 ">
               
            
-               <MovieList search ={item.value}/>
+               <FavoriteCard search ={item.key}/>
                
             </li>
           ))}
