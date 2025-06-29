@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 import MovieList from '../components/MovieList';
 
 function FavoriteList() {
@@ -41,7 +42,7 @@ function FavoriteList() {
             <li key={index} className=" pb-2 ">
               
            
-               <MovieList search={item.value}/>
+               <MovieList search ={item.value}/>
                
             </li>
           ))}

@@ -48,7 +48,7 @@ function Details() {
   if (!movie) return <p className=' flex h-screen bg-black justify-center  items-center'>Loading...</p>;
 
   return (
-    <div className="p-4  flex-col flex justify-center items-center text-white bg-black h-full w-full lg:h-screen md:h-screen"> 
+    <div className="p-4  flex-col flex justify-center items-center text-white bg-black h-screen w-full lg:h-screen md:h-screen"> 
       <img src={movie.Poster} alt={movie.Title} className="w-60 mb-4" />
       <h1 className="text-2xl font-bold">{movie.Title}</h1>
       <div className='flex flex-col justify-center items-center lg:m  x-30 pb-4'>
