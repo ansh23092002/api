@@ -17,7 +17,7 @@ A React app that fetches movies from the OMDb API and lets you search, view deta
 
 | Search Page | Movie Details | Favorites |
 |-------------|----------------|------------|
-| ![Search](./screenshots/search.png) | ![Details](./screenshots/details.png) | ![Favorites](./screenshots/favorites.png) |
+| ![Search](./Screenshots/search.png) | ![Details](./Screenshots/details.png) | ![Favorites](./Screenshots/favorites.png) |
 
 > Add your actual screenshots to the `/screenshots` folder.
 
