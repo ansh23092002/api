@@ -28,7 +28,7 @@ A React app that fetches movies from the OMDb API and lets you search, view deta
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation / Setup instruction
 
 1. **Clone the repo**  
    ```bash
