@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
-const API_KEY = "fc91bf4"; //  OMDb API key
+
+const API_KEY = import.meta.env.VITE_API_KEY; //  OMDb API key
 
 function MovieList({ search }) {
   const [movies, setMovies] = useState([]);
@@ -29,7 +30,7 @@ function MovieList({ search }) {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
         {movies.map((movie) => (
           <MovieCard key={movie.imdbID} movie={movie} />
-        ))}
+        ))};
       </div>
     </div>
   );

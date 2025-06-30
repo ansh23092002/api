@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
-const API_KEY = "fc91bf4"; //  OMDb API key
+const API_KEY = import.meta.env.VITE_API_KEY;; //  OMDb API key
 
 function FavoriteCard({ search }) {
   const [movies, setMovies] = useState(null);
