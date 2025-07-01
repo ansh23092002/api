@@ -14,9 +14,9 @@ function Home() {
   return (
     <div className="m-0  bg-black text-white ">
       <nav className="flex justify-between items-center  bg-black text-white">
-        <h1 className="text-xl font-bold m-2 text-yellow-500">
+        <Link to ={"/"} className="text-xl font-bold m-2 text-yellow-500">
           Movie Explorer..
-        </h1>
+        </Link>
         <Link
           to={"/FavoriteList"}
           className=" p-2 m-1 bg-white text-black rounded-4xl"

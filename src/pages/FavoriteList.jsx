@@ -30,7 +30,7 @@ function FavoriteList() {
   return (
     <div className="">
       <h2 className="w-full text-white bg-black p-10 text-4xl">
-        My Favorite Items
+        My Favorite
       </h2>
 
       {storedItems.length === 0 ? (
